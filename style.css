@@ -1,0 +1,50 @@
+*{
+    background-color: rgb(248, 220, 186);
+}
+
+h1{
+    color:rgb(119, 26, 26);
+}
+
+p span{
+    font-weight: bold;
+}
+
+div.bilgi ul {
+    list-style-type: none;
+    padding-right: 400px;
+}
+
+div.bilgi ul li {
+    float: right;
+    margin: auto;
+    padding-left:  10px;
+    text-decoration: underline;
+}
+.bilgi::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+div.bilgi ul li span{
+    font-weight: bold;
+    color:chocolate;
+}
+h3{
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.tarif {
+    margin-left: 400px;
+    width: 1000px;
+
+}
+.tarif p {
+    float: right;
+    padding-right: 200px;
+    font-size: 30px;
+}
